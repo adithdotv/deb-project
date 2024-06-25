@@ -1,0 +1,28 @@
+.app-style{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.greetingButton-style{
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.greetingButton-style:hover{
+    background-color: green;
+}
+
+p{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
